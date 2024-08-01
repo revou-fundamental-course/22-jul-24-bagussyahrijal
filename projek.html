@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <!-- NAVBAR START -->
+
+    <nav class="navbar">
+
+        <div class="navbar-logo">
+            <a href="#"><img class="logo" src="assets/logo.png" alt=""></a>
+        </div>
+
+        <div class="navbar-menu">
+
+            <a class="menu" href="">Home</a>
+
+            <a class="menu" href="">News</a>
+
+            <a class="menu" href="">Promo</a>
+
+            <a class="menu" href="">Contact Us</a>
+
+
+        </div>
+    </nav>
+
+    <!-- NAVBAR DONE  -->
+
+    <!-- HEADER START -->
+
+    <main>
+        <header class="header-container">
+
+            <div class="carousel">
+
+                <div class="carousel-inner">
+
+                    <div class="carousel-item active">
+                        <img src="assets/1.jpg" alt="Image 1">
+                    </div>
+
+                    <div class="carousel-item">
+                        <img src="assets/2.jpg" alt="Image 2">
+                    </div>
+
+                    <div class="carousel-item">
+                        <img src="assets/3.jpg" alt="Image 3">
+                    </div>
+
+                </div>
+
+                <button class="carousel-control prev" onclick="prevSlide()">
+                    < </button>
+                        <button class="carousel-control next" onclick="nextSlide()"> > </button>
+            </div>
+            <div class="header-text">
+                <h1>ANIEMA WISATA</h1>
+                <p>Ini nanti slogannya apa gtu yg banyak tp ga banyak banget</p>
+            </div>
+
+        </header>
+
+        <!-- HEADER DONE -->
+
+        <!-- CONTENT START -->
+
+        <section>
+
+            <div class="content-1">
+
+                <h1 class="text-content-1">Promo Terbaru Aniema</h1>
+
+                <div class="promo-content-1">
+
+                    <div class="promo-1">
+                        <a href="#"><img src="assets/content-1.jpg" alt=""></a>
+                        <h4>Ziarah Negeri Para Nabi</h4>
+                        <p>10 Hari 8 Malam</p>
+                        <br>
+                        <a class="lihat-promo" href="#">Lihat Promo</a>
+                    </div>
+
+                    <div class="promo-2">
+                        <a href="#"><img src="assets/content-2.jpg" alt=""></a>
+                        <h4>Tour 3 Negara</h4>
+                        <p>6 Hari 5 Malam</p>
+                        <br>
+                        <a class="lihat-promo" href="#">Lihat Promo</a>
+                    </div>
+
+                    <div class="promo-3">
+                        <a href="#"><img src="assets/content-3.jpg" alt=""></a>
+                        <h4>3 Day Trip Lombok</h4>
+                        <p>3 Hari 2 Malam</p>
+                        <br>
+                        <a class="lihat-promo" href="#">Lihat Promo</a>
+                    </div>
+
+                </div>
+
+                <a href="#" class="lihat-semua-promo">LIHAT SEMUA PROMO</a>
+
+                <br>
+
+            </div>
+
+            <div class="content-2">
+                <form name="contact-form" onsubmit="return validateForm()">
+                    <h1 style="margin-top: 20px;">Tertarik Dengan Promo Kami?</h1>
+                    <p>Silahkan Isi Form Dibawah Ini</p>
+
+                    <br>
+                    <table class="table-content">
+                        <tr>
+                            <td>
+                                <label for="nama">Nama: </label>
+                            </td>
+                            <td>
+                                <input type="text" name="nama" id="nama">
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td>
+                                <label for="email">Email: </label>
+                            </td>
+                            <td>
+                                <input type="text" name="email" id="email">
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td>
+                                <label for="pesan">Pesan: </label>
+                            </td>
+                            <td>
+                                <textarea name="pesan" id="" cols="21" rows="8"></textarea>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td style="padding: 10px;">
+                                <button type="submit">Submit</button>
+                            </td>
+                        </tr>
+                    </table>
+                </form>
+            </div>
+
+        </section>
+    </main>
+
+    <!-- CONTENT DONE -->
+    <!-- FOOTER START -->
+    <footer>
+
+        <div class="footer-container">
+            <div class="navbar-logo">
+                <a href="#"><img class="logo" src="assets/logo.png" alt=""></a>
+            </div>
+
+            <p class="footer-text">PT ANIEMA BANTEN UTAMA</p>
+        </div>
+
+    </footer>
+
+    <!-- FOOTER DONE -->
+
+    <script src="js/projek.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,263 @@
+*, html {
+    margin: 0;
+}
+
+html {
+    background-image: url('../assets/download.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+    font-family: 'Poppins';
+}
+
+.navbar {
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: 1px 5px 14px 0px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: 1px 5px 14px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 1px 5px 14px 0px rgba(0, 0, 0, 0.75);
+}
+
+.navbar-menu {
+    margin-right: 65px;
+}
+
+.navbar-logo {
+    margin-left: 65px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.logo {
+    width: 160px;
+}
+
+.menu {
+    font-family: 'Poppins';
+    font-size: 20px;
+    margin: 10px;
+    padding: 1px 5px 1px 5px;
+    white-space: nowrap;
+    text-decoration: none;
+    color: black;
+}
+
+.menu:hover {
+    color: blue;
+    cursor: pointer;
+}
+
+main {
+    margin-top: 20px;
+}
+
+
+.header-container {
+    margin: 0px 20px 00 20px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 200px;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+}
+
+.header-text {
+    color: rgb(0, 0, 0);
+    text-align: center;
+}
+
+.carousel {
+    margin: 20px 0px 20px 0px;
+    position: relative;
+    width: 400px;
+    height: 400px;
+    overflow: hidden;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+    box-shadow: 1px 5px 14px 0px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: 1px 5px 14px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 1px 5px 14px 0px rgba(0, 0, 0, 0.75);
+}
+
+.carousel-inner {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+}
+
+.carousel-item {
+    min-width: 100%;
+    box-sizing: border-box;
+}
+
+.carousel img {
+    width: 100%;
+    display: block;
+}
+
+.carousel-control {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgb(173, 173, 173);
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    opacity: 40%;
+}
+
+.carousel-control:hover {
+    transition: 0.2s;
+    opacity: 100%;
+    -webkit-transition: 0.2s;
+    -moz-transition: 0.2s;
+    -ms-transition: 0.2s;
+    -o-transition: 0.2s;
+}
+
+.carousel-control.prev {
+    left: 10px;
+}
+
+.carousel-control.next {
+    right: 10px;
+}
+
+.content-1 {
+    background-color: white;
+    margin-top: 20px;
+    /* border: 1px solid; */
+    margin-left: 20px;
+    margin-right: 20px;
+    width: auto;
+    height: fit-content;
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    flex-direction: column;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+
+}
+
+.text-content-1 {
+    padding-top: 50px;
+}
+
+.promo-content-1 {
+    margin-top: 40px;
+    margin-bottom: 20px;
+    width: 80%;
+    height: auto;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    text-align: center;
+}
+
+.promo-content-1 img {
+    width: 248.2px;
+    height: 351px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+.promo-content-1 img:hover{
+    transition-duration: 0.2s;
+    transform: scale(1.05);
+    -webkit-transform: scale(1.05);
+    -moz-transform: scale(1.05);
+    -ms-transform: scale(1.05);
+    -o-transform: scale(1.05);
+}
+
+.lihat-promo {
+    text-decoration: none;
+    color: rgb(44, 48, 255);
+    
+}
+
+.lihat-promo:hover {
+    transition-duration: 0.1s;
+    padding: 5px;
+    background-color: rgb(44, 48, 255);
+    color: white;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+.lihat-semua-promo{
+    margin-top: 10px;
+    color: white;
+    padding: 7px;
+    background-color: rgb(7, 188, 79);
+
+}
+
+.lihat-semua-promo:hover{
+    text-decoration: none;
+    transition:0.1s;
+    color: rgb(0, 71, 29);
+    background-color: rgb(7, 188, 79);
+    -webkit-transition:0.1s;
+    -moz-transition:0.1s;
+    -ms-transition:0.1s;
+    -o-transition:0.1s;
+}
+
+.content-2{
+    background-color: white;
+    margin: 20px;
+    width: auto;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+}
+
+.table-content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.footer-container {
+    width: 100%;
+    padding: 1px 0px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+}
+
+.footer-text{
+    margin-left: auto;
+    margin-right: 20px;
+}
